@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Nobile:400,700&display=swap');
-@import url(/Anurati.otf);
 
 * {
 	box-sizing: border-box;
@@ -104,7 +103,7 @@ nav ul li a:hover {
 	text-transform: uppercase;
 	color: rgb(214, 214, 214);
 	padding-top: 30px;
-	font-family: 'Anurati';
+	font-family: 'Nobile', Helvetica, Arial, sans-serif;
 }
 
 .border {
