@@ -121,7 +121,7 @@ nav ul li a:hover {
 }
 
 .gallery .image {
-	flex: 25%;
+	flex: 55%;
 	overflow: hidden;
 	padding: 0.5em 0;
 }
@@ -133,12 +133,12 @@ nav ul li a:hover {
 
 @media screen and (max-width: 1080px) {
 	.gallery-section .image {
-		flex: 100%;
+		flex: 55%;
 	}
 }
 
 @media screen and (max-width: 480px) {
 	.gallery-section .image {
-		flex: 100%;
+		flex: 55%;
 	}
 }
