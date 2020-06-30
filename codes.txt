@@ -1,0 +1,32 @@
+nav ul li a {
+	color: ivory;
+	text-decoration: none;
+	display: block;
+	width: 100%;
+	padding: 1em 1.5em;
+	background-color: #3b9fe7;
+}
+
+.exit-btn {
+	margin-bottom: 1em;
+	margin-top: -1.3em;
+	text-align: right;
+	padding: 0 1.4em;
+}
+
+.exit-btn img {
+	width: 17px;
+	cursor: pointer;
+}
+
+.logo img {
+	width: 55px;
+
+
+
+
+https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js
+
+https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js
+
+https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css
