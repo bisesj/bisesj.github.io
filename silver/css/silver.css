@@ -13,7 +13,7 @@ html {
 body {
 	margin: 0;
 	height: 100vh;
-	background: #fff;
+	background: #121212;
 	font-family: 'Nobile', Arial, Helvetica, sans-serif;
 }
 
@@ -26,11 +26,11 @@ ul {
 .navbar {
 	text-align: center;
 	padding: 1.5em 1.2em;
-	background: rgb(240, 240, 240);
+	background: rgb(182, 182, 182);
 }
 
 .logo {
-	width: 50px;
+	width: 55px;
 }
 
 .logo img {
@@ -57,7 +57,7 @@ nav ul {
 	top: 0;
 	right: 0;
 	text-align: left;
-	background: linear-gradient(#56a7e0, #fff);
+	background: linear-gradient(#131313, #fff);
 	height: 100%;
 	z-index: 7;
 	padding-top: 3em;
@@ -69,11 +69,15 @@ nav ul li a {
 	display: block;
 	width: 100%;
 	padding: 1em 1.5em;
-	background-color: #3b9fe7;
+	background-color: #616060;
+	font-size: 18px;
+	font-family: 'Nobile', Arial, sans-serif;
 }
 
 nav ul li a:hover {
-	background-color: #33bb99;
+	background-color: #ffffff;
+	color: black;
+	font-size: 22px;
 }
 
 .exit-btn {
@@ -92,7 +96,7 @@ nav ul li a:hover {
 	width: 100%;
 	max-width: 1200px;
 	margin: auto;
-	background: #fff;
+	background: #121212;
 }
 
 .inner-width {
@@ -105,7 +109,7 @@ nav ul li a:hover {
 .gallery-section h1 {
 	text-align: center;
 	text-transform: uppercase;
-	color: rgb(214, 214, 214);
+	color: rgb(202, 202, 202);
 	padding-top: 30px;
 	font-family: 'Nobile', Helvetica, Arial, sans-serif;
 }
@@ -113,7 +117,7 @@ nav ul li a:hover {
 .border {
 	width: 130px;
 	height: 4px;
-	background: rgb(214, 214, 214);
+	background: rgb(238, 238, 238);
 	margin: 20px auto;
 }
 
@@ -134,19 +138,26 @@ nav ul li a:hover {
 	height: 100%;
 }
 
+.vid {
+	text-align: center;
+	transform: rotate(-90deg);
+}
+
 @media screen and (max-width: 1920px) {
 	.gallery-section .image {
-		flex: 100%;
+		flex: 25%;
+		padding: 0.5em 0.5em;
 	}
 }
 @media screen and (max-width: 1080px) {
 	.gallery-section .image {
-		flex: 100%;
+		flex: 55%;
+		padding: 0.5em 0.5em;
 	}
 }
 
 @media screen and (max-width: 480px) {
 	.gallery-section .image {
-		flex: 100%;
+		flex: 55%;
 	}
 }
