@@ -138,6 +138,11 @@ nav ul li a:hover {
 	height: 100%;
 }
 
+.vid {
+	text-align: center;
+	transform: rotate(-90deg);
+}
+
 @media screen and (max-width: 1920px) {
 	.gallery-section .image {
 		flex: 25%;
